@@ -24,6 +24,8 @@
 		82ADF97926558D7700D81DB7 /* LexicographicallyMinimalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ADF97626558D7700D81DB7 /* LexicographicallyMinimalTests.m */; };
 		82ADF97D26566AC400D81DB7 /* DateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ADF97C26566AC400D81DB7 /* DateHelper.m */; };
 		82ADF97F26566ACF00D81DB7 /* DateHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ADF97E26566ACF00D81DB7 /* DateHelperTests.m */; };
+		8A56069D265B888A00721D37 /* BinaryNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A56069C265B888A00721D37 /* BinaryNode.m */; };
+		8A5606A2265B894100721D37 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A5606A1265B894100721D37 /* BinaryTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,10 @@
 		82ADF97B26566AC400D81DB7 /* DateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateHelper.h; sourceTree = "<group>"; };
 		82ADF97C26566AC400D81DB7 /* DateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelper.m; sourceTree = "<group>"; };
 		82ADF97E26566ACF00D81DB7 /* DateHelperTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateHelperTests.m; sourceTree = "<group>"; };
+		8A56069B265B886C00721D37 /* BinaryNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryNode.h; sourceTree = "<group>"; };
+		8A56069C265B888A00721D37 /* BinaryNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryNode.m; sourceTree = "<group>"; };
+		8A5606A0265B892F00721D37 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		8A5606A1265B894100721D37 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +137,10 @@
 				82ADF96426558D6400D81DB7 /* LevelOrderTraversal.md */,
 				82ADF96526558D6400D81DB7 /* LevelOrderTraversal.h */,
 				82ADF95F26558D6400D81DB7 /* LevelOrderTraversal.m */,
+				8A56069B265B886C00721D37 /* BinaryNode.h */,
+				8A5606A0265B892F00721D37 /* BinaryTree.h */,
+				8A5606A1265B894100721D37 /* BinaryTree.m */,
+				8A56069C265B888A00721D37 /* BinaryNode.m */,
 			);
 			path = "Exercise-4";
 			sourceTree = "<group>";
@@ -294,7 +304,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				82ADF96F26558D6A00D81DB7 /* LexicographicallyMinimal.m in Sources */,
+				8A5606A2265B894100721D37 /* BinaryTree.m in Sources */,
 				8293ECA826346C7100CEE768 /* AppDelegate.m in Sources */,
+				8A56069D265B888A00721D37 /* BinaryNode.m in Sources */,
 				8293ECB926346C7500CEE768 /* main.m in Sources */,
 				82ADF96626558D6400D81DB7 /* LevelOrderTraversal.m in Sources */,
 				82ADF97326558D7000D81DB7 /* PlayersSeparator.m in Sources */,
